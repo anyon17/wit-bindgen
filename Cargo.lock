@@ -2092,6 +2092,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "weil_idl"
+version = "0.28.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "wit-bindgen-core",
+ "wit-parser 0.214.0",
+]
+
+[[package]]
 name = "wiggle"
 version = "22.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
