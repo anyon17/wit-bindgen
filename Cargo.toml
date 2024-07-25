@@ -12,7 +12,7 @@ CLI tool to generate bindings for WIT documents and the component model.
 
 [workspace]
 members = [
-  "crates/test-rust-wasm",
+  "crates/test-rust-wasm", "weil_idl",
 ]
 resolver = "2"
 
